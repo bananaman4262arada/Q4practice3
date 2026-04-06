@@ -29,12 +29,31 @@
         let y = 0;
 
         while (y < 5) {
-        Sample2 += "<br>The number is " + y;
+        Sample2 += "The number is " + y;
         y++;
         }
 
         document.getElementById("sample2").innerHTML = Sample2;
     </script>
+
+    <h2>JavaScript Do-While Loop</h2>
+
+    <p id="sample"></p>
+
+       <p id="sample3"></p>
+
+    <script>
+        let Sample3 = ""
+        let z = 0;
+
+        do {
+        Sample3 += "<br>The number is " + z;
+        z++;
+        }
+        while (z < 5);  
+
+        document.getElementById("sample3").innerHTML = Sample3;
+</script>
 
 </body>
 </html>
